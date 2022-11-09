@@ -35,7 +35,21 @@
     width: 100%;
 }
 
-.login_buttom{
+.login-buttom{
     background-color: royalblue;
     padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #CE7422;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+
+
+}
+
+.login-buttom:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
 }
