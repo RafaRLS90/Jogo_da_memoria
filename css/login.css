@@ -23,7 +23,7 @@
     font-size: 2em;
 }
 
-.login-input {
+.login_input {
     border: 2px solid #333;
     border-radius: 8px;
     color: #333;
@@ -35,7 +35,7 @@
     width: 100%;
 }
 
-.login-buttom{
+.login_button{
     background-color: royalblue;
     padding: 15px;
     border-radius: 8px;
@@ -48,7 +48,7 @@
 
 }
 
-.login-buttom:disabled {
+.login_button:disabled {
     background-color: #eee;
     color: #aaa;
     cursor: auto;
