@@ -10,8 +10,11 @@ const validateInput = ({ target }) => {
   button.setAttribute('disabled', '');
 }
 
-const handleSubmit = () => {
+const handleSubmit = (event) => {
+    event.preventDefault();
 
+    localStorage.setItem('player', input.value);
+    window.location = 'pages/game.html';
 }
 
 input.addEventListener('input', validateInput);
