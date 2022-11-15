@@ -18,4 +18,4 @@
 ![Jogando](../images/Jogo_da_memoria/images/tela_acao_jogando.png)
 
 ### Após um determinado número de acertos, o jogo avisa que o player ganhou, e o tempo decorrido.
-![Tela de login](../images/Jogo_da_memoria/images/tempo%20final.png)
+![Tela de login](./images/tempo%20final.png)
